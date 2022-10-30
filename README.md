@@ -21,6 +21,7 @@ https://frontend.turing.edu/projects/M2-static-comp-challenge.html
 <img width="1437" alt="Screen Shot 2022-10-30 at 11 52 20 AM" src="https://user-images.githubusercontent.com/104449342/198888321-9830b79d-91b5-4c34-9c75-f04409181f77.png">
 
 Can be viewed from: https://andrewcerveny.github.io/ForgedByFire/
+
 Context:
 I am 3 months in the Turing Circiculum  
 
