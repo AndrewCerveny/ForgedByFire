@@ -5,7 +5,6 @@
 }
 
 nav {
-    border: dotted 1px black;
     width: 100vw;
     color: red;
     background: black;
@@ -20,6 +19,7 @@ main {
 ul {
     margin: 0;
     padding: 10px;
+    font-size: large;
 }
 
 ul:hover {
@@ -90,7 +90,6 @@ h2 {
 }
 
 .wrapper-all-cards {
-    border: 1px dotted blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -119,6 +118,7 @@ h2 {
 
 .hearts:hover {
     fill: red;
+    cursor: grab;
 }
 
 .wrapper-for-Heart {
@@ -129,8 +129,11 @@ h2 {
 
 .view-wrapper {
     font-size: x-large;
-    color: red;
+    color: black;
+    opacity: 1;
 }
+
+
 
 /* topCardLikesSection  */
 
@@ -154,7 +157,7 @@ h2 {
 .card6-likes-wrapper,
 .card5-likes-wrapper {
     position: absolute;
-    bottom: -8rem;
+    bottom: -11rem;
     width: 19rem;
     display: flex;
     justify-content: space-between;
@@ -184,5 +187,32 @@ h2 {
 .arthur-sword {
     width: 100%;
     height: 11rem;
-    opacity: .85;
+}
+/* picture hoover change  */
+.thor-hammer:hover {
+    opacity: .5;
+}
+
+.hunter-Knife:hover {
+    opacity: .5;
+}
+
+.pirate-Sword:hover {
+    opacity: .5;
+}
+
+.dwarf-Axe:hover {
+    opacity: .5;
+}
+.chief-Knife:hover {
+    opacity: .5;
+}
+.samauri-katana:hover {
+    opacity: .5;
+}
+.viking-Axe:hover{
+    opacity: .5;
+}
+.arthur-sword:hover{
+    opacity: .5;
 }
