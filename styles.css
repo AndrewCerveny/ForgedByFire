@@ -1,0 +1,188 @@
+/* Element Borders */
+* {
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+nav {
+    border: dotted 1px black;
+    width: 100vw;
+    color: red;
+    background: black;
+}
+
+main {
+    border: 1px solid black;
+    width: 100vw;
+    background-color: #f8f9fa;
+}
+
+ul {
+    margin: 0;
+    padding: 10px;
+}
+
+ul:hover {
+    color: antiquewhite;
+    cursor: grab;
+}
+
+h2 {
+    color: orangered;
+}
+
+/* navBar area */
+
+.navBar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 7rem;
+    width: 100vw;
+}
+
+.options-wrapper {
+    display: flex;
+    align-items: flex-end;
+    width: 31%;
+    justify-content: space-between;
+}
+
+.admin-display {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+    width: 15%;
+}
+
+
+.page-icon {
+    height: 3.5rem;
+    width: 45px;
+    margin-left: -2rem;
+    fill: red
+}
+
+.emblem-wrapper {
+    display: flex;
+}
+
+.nav-icons {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.admin-icon-wrapper,
+.wrapper-personal-Vids,
+.wrapper-playList,
+.wrapper-shares {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* mainBody */
+.headTitle:hover {
+    color: red;
+}
+
+.wrapper-all-cards {
+    border: 1px dotted blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wrapper-card-container {
+    border: .5px solid black;
+    margin-top: 1rem;
+}
+
+/* card1 section */
+.card1-likes-wrapper {
+    position: absolute;
+    top: 31%;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    height: 6%;
+
+}
+
+.hearts {
+    height: 3rem;
+    fill: black;
+}
+
+.hearts:hover {
+    fill: red;
+}
+
+.wrapper-for-Heart {
+    background-color: whitesmoke;
+    border-radius: 100%;
+    height: 48px;
+}
+
+.view-wrapper {
+    font-size: x-large;
+    color: red;
+}
+
+/* topCardLikesSection  */
+
+.card4-likes-wrapper,
+.card3-likes-wrapper,
+.card2-likes-wrapper,
+.card1-likes-wrapper {
+    position: absolute;
+    top: 31%;
+    width: 19rem;
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    align-content: center;
+    align-items: center;
+}
+
+/* bottom Cards Likes Selection */
+.card8-likes-wrapper,
+.card7-likes-wrapper,
+.card6-likes-wrapper,
+.card5-likes-wrapper {
+    position: absolute;
+    bottom: -8rem;
+    width: 19rem;
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+}
+
+/* Email section display */
+.email-slot {
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+.email:hover {
+    zoom: 110%;
+    color: blue;
+    cursor: grab;
+}
+
+/* images sizing and looks */
+.thor-hammer,
+.hunter-Knife,
+.pirate-Sword,
+.dwarf-Axe,
+.chief-Knife,
+.samauri-katana,
+.viking-Axe,
+.arthur-sword {
+    width: 100%;
+    height: 11rem;
+    opacity: .85;
+}
